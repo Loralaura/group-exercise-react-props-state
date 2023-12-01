@@ -26,9 +26,9 @@ This article, point number [3. React props can be accessed as an object or destr
 
 ## Requirement 3 - Chuck Jokes 🃏
 
-- The page must display some jokes about Chuck. These jokes can be found in one of the useState declarations. Using what you know about JavaScript, `.map()` over jokes and return the `<ChuckJokes />` component underneath the heading "Jokes: ".
+- The page must display some jokes about Chuck. These jokes can be found in one of the useState declarations. Using what you know about JavaScript, `.map()` over jokes and use the `<ChuckJoke />` component to render each joke underneath the heading "Jokes: ".
 
-- Pass the joke down to `<ChuckJokes />` using props 
+- Pass each joke down to `<ChuckJoke />` using props 
 
 💡 Hint: consider what type this should be, refer to `joke.ts`
 
